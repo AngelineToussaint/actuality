@@ -1,0 +1,59 @@
+.background {
+    background: url("../img/background.png");
+    height: 100vh;
+    margin: 0;
+}
+
+.center-content {
+    position: absolute!important;
+    top: 50%!important;
+    left: 50%!important;
+    transform: translate(-50%, -50%)!important;
+}
+
+.bold {font-weight: bold!important;}
+.semi-bold {font-weight: 500!important;}
+
+/*Home*/
+#accueil .carousel-item {
+    background-attachment: fixed;
+}
+
+#accueil .carousel-content {
+    font-weight: bold;
+    text-shadow: 2px 1px #4e342e;
+}
+
+#accueil .carousel-content p {
+    font-size: 30px;
+}
+
+#accueil .carousel-content h1 {
+    font-size: 50px;
+}
+
+#accueil .collection img {
+    vertical-align: middle;
+    width: 500px;
+    height: auto
+}
+
+#accueil .collection .picture {
+    height: auto;
+    width: 500px;
+    margin: 20px;
+}
+
+#accueil .collection .title {
+    color: #220eff;
+    font-size: larger;
+}
+
+#accueil .collection .subtitle {
+    color: #00e5ff;
+    font-size: small;
+}
+
+
+
+
